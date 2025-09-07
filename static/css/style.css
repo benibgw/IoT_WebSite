@@ -1,4 +1,137 @@
-@import url('reset.css');
-@import url('base.css');
-@import url('layout.css');
-@import url('components.css');
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Base */
+body {
+    background-color: #11111b;
+    color: #dce0e8;
+    line-height: 1.6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #dce0e8;
+    background-color: #11111b;
+    border-radius: 100px;
+    padding: 10px 10px;
+}
+header img {
+    height: 75px;
+}
+
+
+/* Nav */
+nav {
+    display: flex;
+    gap: 15px;
+    background-color: #181926;
+    border-radius: 100px;
+    border: 1px solid #dce0e8;
+    padding: 4px 12px 4px 12px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+nav ul a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #dce0e8;
+    padding: 10px 15px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+nav ul a:hover {
+    background: #232634;
+}
+
+
+/* Main */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 40px;
+} 
+
+
+/* Footer */
+footer {
+    background-color: #181926;
+    text-align: center;
+    font-size: 16px;
+    padding: 15.25px;
+    position: static;
+    bottom: 0;
+}
+
+
+/* Sections */
+section {
+    height: 600px;
+    border-radius: 20px;
+    padding-top: 250px;
+    padding-left: 20px;
+}
+
+
+/* Components */
+.main-image {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.login-button {
+    background: linear-gradient(to right, rgb(45, 113, 214),#11111b);
+    color: #dce0e8;
+    border-radius: 100px;
+    padding: 10px 35px;
+    transition: background-color s;
+}
+.login-button:hover {
+    background: linear-gradient(to right, #24273a,rgb(77, 77, 77));
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #181926;
+    color: #dce0e8;
+    border-radius: 100px;
+    padding: 10px 35px;
+    margin-top: 10px;
+    width: 100px;
+    transition: background-color s;
+}
+.button:hover {         
+    background-color: #24273a;
+}

@@ -1,63 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT_WebSite</title>
-    <link rel="stylesheet" href="..\static\css\style.css">
+    <title>IoT - WebSite</title>
+    <meta name="description" content="Curso Técnico em Internet das Coisas integrado ao Ensino Médio - CTISM">
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="..\static\assets\images\IoT-logo.png" height="100px" alt="IoT-logo"></a>
-        <div class="nav_area">
-            <nav>
-                <a href="index.html"><button class="nav_button"><u>Home</u></button></a>
-                <a href="materias.html"><button class="nav_button">Matérias</button></a>
-                <a href="#"><button class="nav_button">Noticias</button></a>
-                <a href="#"><button class="nav_button">Blog</button></a>
-                <a href="#"><button class="nav_button">Contact</button></a>
-            </nav>
+        <div class="header-container">
+        <a href="index.html"><img src="../static/assets/images/IoT-logo.png" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="#login" class="login-button">Login</a>
         </div>
-        <div>
-            <a href="#"><button class="nav_button login_button">login</button></a>
-        </div>
-        
     </header>
+    
     <main>
-        <div class="div_inicio">
-            <h1>IoT - CTISM</h1><br>
-            <h2>o novo curso do CTISM</h2><br>
-            <p>Preparando jovens para um futuro tecnológico</p>
-            <a href="#"><button class="explore_button">Explore</button></a>
-            <img src="..\static\assets\images\start-background.png">
-        </div>
-        
-        <div class="div_texto">
-            <h2>A conexão em nosso cotidiano</h2>
-            <p>A IoT é a conexão de objetos físicos à internet e a outros objetos.
-                Permitindo que as coisas se comuniquem, interajam entre si
-                e atuem de maneira automática, podendo ser essas “coisas” qualquer objeto do nosso cotidiano.</p>
-        </div>
-        <div class="div_texto">
-            <h2>Uma inovação tecnológica</h2>
-            <p>--explicar aqui o porquê da criação do curso--</p>
-        </div>
-        <div class="div_texto">
-            <h2>Você também pode fazer parte</h2>
-            <p>Se você é apaixonado por tecnologia, inovação e quer 
-                fazer parte dessa transformação digital, este curso é para você!<br>
-                Ao fim do curso você será capacitado à:
-                <ul>
-                    <li>Desenvolver e gerenciar dispositivos conectados</li>
-                    <li>Implementar soluções tecnológicas</li>
-                    <li>Analisar e interpretar dados</li>
-                </ul>
-            </p>
-        </div>
+        <section>
+            <h1>IoT - CTISM</h1>
+            <h2>O novo curso do CTISM</h2>
+            <p>Preparando jovens para um futuro tecnológico.</p>
+            <a href="#sobre" class="button">Sobre</a>
+            <img src="../static/assets/images/start-background.png" alt="Background Image" class="main-image">
+        </section>
     </main>
+    
     <footer>
-        <p>Desenvolvido por: <a href="https://github.com/N4than-Rossi">Nathan Rossi</a> e <a href="https://github.com/benibgw">Benício Wendt</a></p>
-        <p>&copy; 2025 IoT &ndash; Meu site da IoT</p>
+        <p>
+            Desenvolvido por:
+            <a href="https://github.com/benibgw" target="_blank">Benicio Wendt</a> e
+            <a href="https://github.com/N4than-Rossi" target="_blank">Nathan Rossi</a>
+        </p>
+        <p>
+            &copy; 2025 IoT &ndash; CTISM.
+        </p>
     </footer>
 </body>
 </html>
