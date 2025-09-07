@@ -104,7 +104,7 @@ section {
 /* Components */
 .main-image {
     position: absolute;
-    left: 500px;
+    left: 700px;
     top: 200px;
     height: 500px;
     transform: rotateY(180deg);
@@ -134,4 +134,13 @@ section {
 }
 .button:hover {         
     background-color: #24273a;
+}
+
+.setas {
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    height: 75px;
+    animation: bounce 2s infinite;
 }
