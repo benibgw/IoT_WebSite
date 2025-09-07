@@ -1,4 +1,12 @@
-.navButton{
+.nav_area {
+    background-color: #181926;;
+    border-radius: 15px;
+    border: 1px solid #dce0e8;
+    padding: 4px 12px 4px 12px;
+    margin: 0 auto;
+}
+
+.nav_button {
     background-color: #181926;
     color: #dce0e8; 
     padding: 8px 20px; 
@@ -8,19 +16,35 @@
     font-size: 16px; 
     margin: 5px;
 }
-
-.navButton:hover {
+.nav_button:hover {
     background-color: #232634; 
 }
 
-.nav_area {
-    background-color: #181926;;
+.login_button {
+    background: linear-gradient(to right, rgb(45, 113, 214),#11111b);
     border-radius: 15px;
-    padding: 4px 12px 4px 12px;
-    margin: 0 auto;
+    padding: 10px 35px;
+}
+.login_button:hover {
+    background: linear-gradient(to right, #24273a,rgb(77, 77, 77));
 }
 
-.submitButton {
+.explore_button {
+    background-color: #11111b;
+    color: #dce0e8; 
+    padding: 8px 40px; 
+    border: 1px solid #dce0e8; 
+    border-radius: 17px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 20px;
+}
+.explore_button:hover {
+    background-color: #232634; 
+    border: 1px solid #dce0e8; 
+}
+
+.submit_button {
     background-color: #181926;
     color: #dce0e8; 
     padding: 10px 20px; 
@@ -30,14 +54,8 @@
     font-size: 16px; 
     margin-top: 10px;
 }
-
-textarea {
-    background-color: #24273a;  
-    width: 300px;
-    height: 100px;
-    resize: none;
-    font-size: 13px;
-    padding: 10px;
+.submit_button:hover {
+    background-color: #232634; 
 }
 
 .div_inicio {
@@ -54,6 +72,10 @@ textarea {
     font-weight:lighter;
     font-size: 32px;
 }
+.div_inicio h3 {
+    font-weight: lighter;
+    font-size: 24px;
+}
 .div_inicio img {
     position:absolute;
     left: 475px;
@@ -63,25 +85,39 @@ textarea {
     transform: rotateY(180deg);
 }
 
-
-.login_button {
-    background: linear-gradient(to right, rgb(45, 113, 214),#11111b);
+.div_texto {
+    padding: 20px 50px 20px 50px;
     border-radius: 15px;
-    padding: 10px 35px;
-}
-.login_button:hover {
-    background: linear-gradient(to right, #24273a,rgb(77, 77, 77));
+    border: solid #dce0e8;
+    font-family: 'raleway', sans-serif;
+    text-align: justify;
+    line-height: 1.6;
 }
 
-.inicio_button {
-    background-color: #11111b;
-    color: #dce0e8; 
-    padding: 8px 40px; 
-    border: 1px solid #dce0e8; 
-    border-radius: 17px; 
-    cursor: pointer; 
-    font-size: 16px; 
-    margin-top: 20px;
+.div_materias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.div_materias h1{
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    margin-bottom: 20px;
+}
+.div_materias h2{
+    font-family: 'raleway', sans-serif;
+    margin-bottom: 10px;
+}
+.div_materias img{
+    border-radius: 15px;
+    border: solid #dce0e8;
+    height: 200px;
+}
+
+li {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 u {
