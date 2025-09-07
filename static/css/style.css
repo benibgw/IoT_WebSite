@@ -104,9 +104,11 @@ section {
 /* Components */
 .main-image {
     position: absolute;
-    left: 700px;
+    /*left: 700px;*/
+    right: 0px;
     top: 200px;
     height: 500px;
+    width: 50%;
     transform: rotateY(180deg);
 }
 
