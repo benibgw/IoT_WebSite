@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT - Contato</title>
+    <meta name="description" content="Curso Técnico em Internet das Coisas integrado ao Ensino Médio - CTISM">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+        <a href="index.html"><img src="../static/assets/images/IoT-logo.png" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="#login" class="login-button">Login</a>
+        </div>
+    </header>
+    
+    <main>
+        <section class="section-contato">
+            <div class="contato-area">
+                <h1>Entre em contato</h1>
+                <p>
+                    Se você tem alguma dúvida, está interessado no curso ou quer falar conosco,
+                    você veio ao lugar certo. Preencha o formulário abaixo e um membro da equipe entrará 
+                    em contato com você em breve
+                </p>
+                <div class="area-formulario">
+                    <form action="#" method="POST">
+
+                        <div class="linha-formulario">
+                            <div class="item-formulario">
+                                <label for="nome1"></label>
+                                <input type="text" id="nome1" name="nome1" placeholder="Insira seu nome*" required>
+                            </div>
+                            <div class="item-formulario">
+                                <label for="nome2"></label>
+                                <input type="text" id="nome2" name="nome2" placeholder="Insira seu sobrenome*" required>
+                            </div>
+                        </div>
+
+                        <div class="item-formulario">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Insira um endereço de email*" required>
+                        </div>
+
+                        <div class="item-formulario">
+                            <label for="duvida"></label>
+                            <textarea id="duvida" name="duvida" rol="8" placeholder="Escreva sua mensagem aqui..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Enviar</button>
+                    </form>
+                </div>
+                
+            </div>
+            
+            <img src="../static/assets/images/start-background.png" alt="Background Image" class="main-image">
+        </section>
+    </main>
+    
+    <footer>
+        <p>
+            Desenvolvido por:
+            <a href="https://github.com/benibgw" target="_blank">Benicio Wendt</a> e
+            <a href="https://github.com/N4than-Rossi" target="_blank">Nathan Rossi</a>
+        </p>
+        <p>
+            &copy; 2025 IoT &ndash; CTISM.
+        </p>
+    </footer>
+</body>
+</html>

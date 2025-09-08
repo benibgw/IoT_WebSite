@@ -78,6 +78,7 @@ main {
     flex-direction: column;
     padding-left: 50px;
     gap: 40px;
+    min-height: 100vh;
 } 
 
 
@@ -94,10 +95,12 @@ footer {
 
 /* Sections */
 section {
-    height: 600px;
+    /*height: 600px;*/
+    min-height: 600px;
     border-radius: 20px;
-    padding-top: 250px;
+    padding-top: 200px;
     padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -145,4 +148,65 @@ section {
     margin-top: 20px;
     height: 75px;
     animation: bounce 2s infinite;
+}
+
+/* contact.html */
+.area-formulario {
+    background-color: #181926;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.area-formulario form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.item-formulario input,textarea{
+    background-color: #24273a;
+    height: 60px;
+    width: 80%;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    border: none;
+    padding: 20px;
+    color: white;
+}.item-formulario textarea {height: 150px;}
+
+.linha-formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-contato {
+    padding-top: 120px;
+}
+.contato-area {
+    max-width: 50%;
+    text-align: center;
+}
+.contato-area h1 {
+    font-size: 35px;
+}
+
+.submit-button {
+    background: linear-gradient(to right, rgb(45, 113, 214),#11111b);
+    color: #dce0e8;
+    border-radius: 100px;
+    height: 50px;
+    width: 400px;
+    padding: 10px 35px;
+    transition: background-color s;
+    border: none;
+    margin: auto;
+    font-size: 17px;
+}
+.submit-button:hover {
+    background: linear-gradient(to right, #24273a,rgb(77, 77, 77));
 }
